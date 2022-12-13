@@ -113,8 +113,6 @@ body {
   font-size: 18px;
 }
 
-
-
 /* SECTION 2 */ /* SECTION 2 */ /* SECTION 2 */
 
 .section2 {
@@ -158,7 +156,6 @@ body {
   margin-top: 20px;
   font-size: 18px;
 }
-
 
 /* SECTION 3 */ /* SECTION 3 */ /* SECTION 3 */
 
@@ -389,8 +386,6 @@ body {
     width: auto;
     flex-direction: column;
   }
-
-
 }
 
 @media (max-width: 576px) {
@@ -399,7 +394,7 @@ body {
     font-size: 35px;
   }
 
-  .section1 .text-container  {
+  .section1 .text-container {
     width: 70%;
     text-align: center;
     font-size: 20px;
@@ -422,62 +417,57 @@ body {
       padding: 10px;
     }
   }
-  
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   .main h1 {
     text-align: center;
-    font-size:129px;
+    font-size: 129px;
   }
 
-.section1 .left h1 {
-  font-size: 50px;
-}
-.section1 .left p {
-  font-size: 30px;
-  line-height: 1.2;
-}
+  .section1 .left h1 {
+    font-size: 50px;
+  }
+  .section1 .left p {
+    font-size: 30px;
+    line-height: 1.2;
+  }
 
-.section2 .right h1 {
-  font-size: 50px;
-}
-.section2 .right p {
-  font-size: 30px;
-  line-height: 1.2;
-}
+  .section2 .right h1 {
+    font-size: 50px;
+  }
+  .section2 .right p {
+    font-size: 30px;
+    line-height: 1.2;
+  }
 
-.section3 .left h1 {
-  font-size: 40px;
-}
+  .section3 .left h1 {
+    font-size: 40px;
+  }
 
-.section3 .right h1 {
-  font-size: 40px;
-}
+  .section3 .right h1 {
+    font-size: 40px;
+  }
 
-.section3 .left p {
-  font-size: 25px;
-}
+  .section3 .left p {
+    font-size: 25px;
+  }
 
-.section3 .right p {
-  font-size: 25px;
-}
+  .section3 .right p {
+    font-size: 25px;
+  }
 
-.section-testemonials h1 {
-  
-  font-size: 30px;
-  
-}
+  .section-testemonials h1 {
+    font-size: 30px;
+  }
 
-.client h4 {
-  font-size: 25px;
-}
+  .client h4 {
+    font-size: 25px;
+  }
 
-.client p {
-  font-size: 20px;
-}
-
-
+  .client p {
+    font-size: 20px;
+  }
 }
 
 /* CSS button */ /* CSS button */ /* CSS button */
@@ -517,7 +507,60 @@ body {
   background-color: #ffe54c;
 }
 
+/* DROPWDOWNBUTTON */
 
+.dropbtn {
+  background-color: whitesmoke;
+  color: black;
+  margin-top: 10px;
+  margin-right: 20px;
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
 
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 260px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 20px;
 
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #f1f1f1;
+}

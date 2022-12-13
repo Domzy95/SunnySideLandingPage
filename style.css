@@ -335,7 +335,7 @@ body {
 
 /* MEDIA QUERY */ /* MEDIA QUERY */ /* MEDIA QUERY */
 
-@media (max-width: 757px) {
+@media (max-width: 700px) {
   .section1 {
     flex-direction: column;
     height: auto;
@@ -348,7 +348,7 @@ body {
 
   .section1 .text-container,
   .section2 .text-container {
-    width: 60%;
+    width: 50%;
     text-align: center;
   }
 
@@ -391,14 +391,93 @@ body {
   }
 
 
-  
-
 }
 
-@media (max-width: 656px) {
+@media (max-width: 576px) {
   .main h1 {
     text-align: center;
+    font-size: 35px;
   }
+
+  .section1 .text-container  {
+    width: 70%;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .section3 .left h1 {
+    font-size: 25px;
+  }
+
+  .section3 .right h1 {
+    font-size: 25px;
+  }
+
+  .learn-button {
+    padding: 2px;
+  }
+
+  @media (min-width: 1200px) {
+    .learn-button {
+      padding: 10px;
+    }
+  }
+  
+}
+
+@media (min-width:1200px) {
+  .main h1 {
+    text-align: center;
+    font-size:129px;
+  }
+
+.section1 .left h1 {
+  font-size: 50px;
+}
+.section1 .left p {
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+.section2 .right h1 {
+  font-size: 50px;
+}
+.section2 .right p {
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+.section3 .left h1 {
+  font-size: 40px;
+}
+
+.section3 .right h1 {
+  font-size: 40px;
+}
+
+.section3 .left p {
+  font-size: 25px;
+}
+
+.section3 .right p {
+  font-size: 25px;
+}
+
+.section-testemonials h1 {
+  
+  font-size: 30px;
+  
+}
+
+.client h4 {
+  font-size: 25px;
+}
+
+.client p {
+  font-size: 20px;
+}
+
+
 }
 
 /* CSS button */ /* CSS button */ /* CSS button */
@@ -438,8 +517,7 @@ body {
   background-color: #ffe54c;
 }
 
-@media (min-width: 768px) {
-  .learn-button {
-    padding: 10px;
-  }
-}
+
+
+
+
